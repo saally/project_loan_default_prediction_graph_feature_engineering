@@ -13,9 +13,9 @@ The data came in 5 tables: borrower social interaction data, borrower risky beha
 ## Feature Engineering:
 
 I took three approaches to extract features from graph. 
-(1) Embedding: I used DeepWalk to generate embedding for each node. 
-(2) Generate other graph features, including pagerank, centrality, hits (hub and authority), and indegree & outdegree. 
-(3) Based on contact information, I also summarized 1-degree contact’s features for each node. Because the last task was repetitive, I wrote a helper function to automate it.
+1. Embedding: I used DeepWalk to generate embedding for each node. 
+2. Generate other graph features, including pagerank, centrality, hits (hub and authority), and indegree & outdegree. 
+3. Based on contact information, I also summarized 1-degree contact’s features for each node. Because the last task was repetitive, I wrote a helper function to automate it.
 
 ## Dealing with Imbalanced Data (currently working on):
 
